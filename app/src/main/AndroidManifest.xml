@@ -31,7 +31,8 @@
                 android:value=".MainActivity" />
         </activity>
         <activity android:name=".MainFragmentActivity" />
-        <activity android:name=".MainFragmentRuntimeActivity"></activity>
+        <activity android:name=".MainFragmentRuntimeActivity" />
+        <activity android:name=".MainFragmentActivityComunication"></activity>
     </application>
 
 </manifest>
