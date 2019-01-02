@@ -22,4 +22,9 @@ public class MainActivity extends AppCompatActivity {
         intent.putExtra("EXTRA_MESSAGE", message);
         startActivity(intent);
     }
+
+    public void goToFragment(View view){
+        Intent intent = new Intent(this, MainFragmentActivity.class);
+        startActivity(intent);
+    }
 }

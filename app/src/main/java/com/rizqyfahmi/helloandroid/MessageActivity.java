@@ -21,6 +21,6 @@ public class MessageActivity extends AppCompatActivity {
     }
 
     public void openFinalActivity(View view){
-        startActivity(new Intent(this, FinalActivity.class ));
+        startActivity(new Intent(this, FinalActivity.class));
     }
 }
