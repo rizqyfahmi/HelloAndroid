@@ -24,7 +24,13 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void goToFragment(View view){
+        // XML Fragment
         Intent intent = new Intent(this, MainFragmentActivity.class);
+        startActivity(intent);
+    }
+
+    public void goToRuntimeFragment(View view){
+        Intent intent = new Intent(this, MainFragmentRuntimeActivity.class);
         startActivity(intent);
     }
 }

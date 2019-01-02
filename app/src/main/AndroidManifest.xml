@@ -30,7 +30,8 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity" />
         </activity>
-        <activity android:name=".MainFragmentActivity"></activity>
+        <activity android:name=".MainFragmentActivity" />
+        <activity android:name=".MainFragmentRuntimeActivity"></activity>
     </application>
 
 </manifest>
