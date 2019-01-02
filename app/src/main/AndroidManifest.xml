@@ -32,7 +32,8 @@
         </activity>
         <activity android:name=".MainFragmentActivity" />
         <activity android:name=".MainFragmentRuntimeActivity" />
-        <activity android:name=".MainFragmentActivityComunication"></activity>
+        <activity android:name=".MainFragmentActivityComunication" />
+        <activity android:name=".MainFragToFragCommunicationActivity"></activity>
     </application>
 
 </manifest>
