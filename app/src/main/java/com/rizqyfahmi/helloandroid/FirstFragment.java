@@ -29,7 +29,7 @@ public class FirstFragment extends Fragment {
         button.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v) {
-                MainFragmentRuntimeActivity.fragmentManager.beginTransaction().replace(R.id.fragment_container, new SecondFragment(), null).commit();
+                MainFragmentRuntimeActivity.fragmentManager.beginTransaction().replace(R.id.fragment_container, new SecondFragment(), null).addToBackStack(null).commit();
             }
         });
         return view;
