@@ -58,4 +58,9 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, MainRoomDBActivity.class);
         startActivity(intent);
     }
+
+    public void goToRecycler(View view) {
+        Intent intent = new Intent(this, MainRecyclerActivity.class);
+        startActivity(intent);
+    }
 }
