@@ -35,7 +35,9 @@
         <activity android:name=".MainFragmentActivityComunication" />
         <activity android:name=".MainFragToFragCommunicationActivity" />
         <activity android:name=".MainSharedPreferenceAPI" />
-        <activity android:name=".SharedPreferenceAPISuccessActivity"></activity>
+        <activity android:name=".SharedPreferenceAPISuccessActivity" />
+        <activity android:name=".MainSQLite" />
+        <activity android:name=".RoomDBActivity"></activity>
     </application>
 
 </manifest>

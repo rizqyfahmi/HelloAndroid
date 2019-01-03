@@ -48,4 +48,9 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, MainSharedPreferenceAPI.class);
         startActivity(intent);
     }
+
+    public void goToSQLite(View view) {
+        Intent intent = new Intent(this, MainSQLite.class);
+        startActivity(intent);
+    }
 }
