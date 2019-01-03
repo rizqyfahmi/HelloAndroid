@@ -53,4 +53,9 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, MainSQLite.class);
         startActivity(intent);
     }
+
+    public void goToRoomDB(View view) {
+        Intent intent = new Intent(this, MainRoomDBActivity.class);
+        startActivity(intent);
+    }
 }

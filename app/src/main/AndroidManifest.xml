@@ -37,7 +37,7 @@
         <activity android:name=".MainSharedPreferenceAPI" />
         <activity android:name=".SharedPreferenceAPISuccessActivity" />
         <activity android:name=".MainSQLite" />
-        <activity android:name=".RoomDBActivity"></activity>
+        <activity android:name=".MainRoomDBActivity"></activity>
     </application>
 
 </manifest>
