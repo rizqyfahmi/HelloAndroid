@@ -33,7 +33,9 @@
         <activity android:name=".MainFragmentActivity" />
         <activity android:name=".MainFragmentRuntimeActivity" />
         <activity android:name=".MainFragmentActivityComunication" />
-        <activity android:name=".MainFragToFragCommunicationActivity"></activity>
+        <activity android:name=".MainFragToFragCommunicationActivity" />
+        <activity android:name=".MainSharedPreferenceAPI" />
+        <activity android:name=".SharedPreferenceAPISuccessActivity"></activity>
     </application>
 
 </manifest>

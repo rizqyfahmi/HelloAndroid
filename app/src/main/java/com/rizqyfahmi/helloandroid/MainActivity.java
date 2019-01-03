@@ -43,4 +43,9 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, MainFragToFragCommunicationActivity.class);
         startActivity(intent);
     }
+
+    public void goToSharedPreferenceAPI(View view){
+        Intent intent = new Intent(this, MainSharedPreferenceAPI.class);
+        startActivity(intent);
+    }
 }
