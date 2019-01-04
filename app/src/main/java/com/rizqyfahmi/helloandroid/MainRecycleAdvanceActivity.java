@@ -23,7 +23,7 @@ public class MainRecycleAdvanceActivity extends AppCompatActivity {
         recyclerView.setHasFixedSize(true);
         recyclerView.setLayoutManager(layoutManager);
 
-        adapter = new RecyclerAdvanceAdapter(images);
+        adapter = new RecyclerAdvanceAdapter(images, this);
         recyclerView.setAdapter(adapter);
 
     }

@@ -39,7 +39,8 @@
         <activity android:name=".MainSQLite" />
         <activity android:name=".MainRoomDBActivity" />
         <activity android:name=".MainRecyclerActivity" />
-        <activity android:name=".MainRecycleAdvanceActivity"></activity>
+        <activity android:name=".MainRecycleAdvanceActivity" />
+        <activity android:name=".RecyclerAdvanceDisplayActivity"></activity>
     </application>
 
 </manifest>
