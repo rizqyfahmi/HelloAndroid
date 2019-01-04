@@ -63,4 +63,9 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, MainRecyclerActivity.class);
         startActivity(intent);
     }
+
+    public void goToRecyclerAdvance(View view) {
+        Intent intent = new Intent(this, MainRecycleAdvanceActivity.class);
+        startActivity(intent);
+    }
 }
